@@ -1,0 +1,11 @@
+
+A)
+An Interface contains  abstract method and constant variables .All the methods and variables inside 
+the interface s public,static,final by default we cant change it.
+in this problem in line number private access modifier is used so it will lead to compile time error  
+
+B)
+this code will not give an error
+this is default method inside the interface
+If we want to add a new function in an Interface we have to use default method inside the interface
+ It is not madatory to override default method of an interface inside implementation class

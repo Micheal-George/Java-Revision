@@ -1,0 +1,62 @@
+A)
+class Test {
+    int a, b;
+
+	Test(){
+		this(2, 4);
+	}
+
+	Test(int a, int b){
+		this();
+	}
+    public static void main(String[] args) {
+       Test a = new Test();
+    }
+}
+this code will give a compile time error because it is recurive constructor calling.
+To execute this code we have to remove this from one of the constructor
+
+B)Class Animal(){
+
+	String name;
+
+	Animal(){
+		this.name = "Lion"; 
+	}
+
+	public Animal(String name){
+		this.name = name;
+	}
+}
+
+
+Animal a = new Animal("tiger");//output tiger
+System.out.println(a.name); 
+
+
+Animal b = new Animal(); 
+System.out.println(b.name); //output Lion
+
+
+C)class Foo{
+	public void doIt(int number){
+		System.out.println("A");
+	}
+
+	public void doIt(String string){
+		System.out.println("B");
+	}
+}
+
+class Bar extends Foo{
+	public void doIt(float number){
+		System.out.println("C");
+	}
+}
+
+
+Bar x = new Bar();
+x.doIt("hello");
+
+the output will be "B"
+This is a condition of method overloading

@@ -1,0 +1,13 @@
+
+subclass implicitly call even default constructor present in super class which is non parameterised.
+ We have to call explicitly when we pass parameters to the constructor.
+ 
+ In this example while we are creating labardor object which is extended from dog class ,dog class extends animal class
+ when we are creating labardor object with zero arguement constructor , the constructor method will call its
+ super class which is dog(subclass implicitly call even default constructor present in super class),dog class
+ constructor method will call its super class which is animal class.
+ Then the following output will be printed
+ Animal Constructor
+Dog Constructor
+Labrador Constructor
+ 

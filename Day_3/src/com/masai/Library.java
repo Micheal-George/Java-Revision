@@ -27,6 +27,10 @@ public class Library {
 		Library.library = library;
 	}
 
+	public  void getDetails() {
+		for(Publication p:library)
+			  System.out.println(p);
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Library library=new Library();
@@ -42,6 +46,7 @@ public class Library {
 		library.Add(book3);
 		
 		
+		
 		Publication Journal1=new Journal();
 		Journal1.noOfPages=150;Journal1.price=650;Journal1.publisherName="Mantiona";
 		Publication Journal2=new Journal();
@@ -49,10 +54,9 @@ public class Library {
 		
 		library.Add(Journal1);
 		library.Add(Journal2);
+		library.getDetails();
 		
 		
-		for(Publication p:library.getLibrary())
-			  System.out.println(p);
 		
 	
 		

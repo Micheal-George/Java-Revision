@@ -1,0 +1,32 @@
+1)the code will execute an interface can be extended by another interface
+Also interface can achieve multiple inheritance in java
+
+
+2)This code will throw compile time error 
+An interface can only be extended by another interface and not implements
+  An interface can only be implements with the class
+
+ 3)This code will throw compile time error 
+An interface can only be extended by another interface and not implements
+  An interface can only be implements with the class
+  
+4)This code will execute
+   A class can  implements  another interface then the class must be marked as abstract class or the unimplemented
+   method in the interface should be implemented inside the class
+   
+5)This code will execute
+   By default the variables and methods in the interface is public,static,final and we cannot change it
+   
+6)This code will execute
+   By default the variables and methods in the interface is public,static,final and we cannot change it.
+   We can initialize the value, by default the value is zero
+   
+7)This code will execute
+From java 8 onward normal methods are possible in java ,but the method should be marked as default or static
+ It is not mandatory to override this method in the child class 
+ 
+8)This code will throw compile time error 
+  Because we cant call the unimplement method with the child object
+  
+9)This code will execute
+  output will be "override"

@@ -1,0 +1,16 @@
+Problem 1
+
+A)The code will not execute it will throw compile time error.
+ if a  class is extending an abstract class ,then the must child class must be implemented ot mark the child 
+ class as abstract class.Here the child has not implemented anything or it is not mark as abstract class
+ so the code will throw an error
+ 
+ B)The code will  execute .
+ if a  class is extending an abstract class ,then the must child class must be implemented or mark the child 
+ class as abstract class.Here the child has  marked as abstract class
+ 
+ C)the abstract class can have private variables and private method but when e extends this abstract class
+ we cannot use this variable or method.
+ 
+ D)Even though the abstract class have private variable we can access it through the getter and setter methods
+ 

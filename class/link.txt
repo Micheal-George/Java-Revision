@@ -10,6 +10,8 @@ day-3  https://false-trouser-16e.notion.site/Student-Notes-3af7ed9766ab438c95b17
 
 day-4  https://false-trouser-16e.notion.site/Part-7-Collections-85a512561f0e41bd85e2344dda560a99
 
+day-5 https://false-trouser-16e.notion.site/Student-Notes-3af7ed9766ab438c95b178bfa1fa1085
+
 https://leetcode.com/problems/combination-sum/
 
 https://leetcode.com/problems/linked-list-cycle-ii/submissions/

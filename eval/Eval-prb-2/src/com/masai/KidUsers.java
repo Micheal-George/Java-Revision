@@ -8,7 +8,7 @@ private String book;
 @Override
 public void registerAccount(Integer age) {
 	if(age<12)
-		System.out.println("You have successfully registered under an Adult Account");
+		System.out.println("You have successfully registered under an Kids Account");
 	else
 		System.out.println("Sorry, Age must be greater than 12 to register as an adult");
 	
@@ -17,9 +17,9 @@ public void registerAccount(Integer age) {
 @Override
 public void requestBook(String book) {
 	if(book.equalsIgnoreCase("Kids"))
-		System.out.println("Book Issued successfully, please return the book within 7 days");
+		System.out.println("Book Issued successfully, please return the book within 10 days");
 	else
-		System.out.println("Oops, you are allowed to take only adult Fiction books");
+		System.out.println("Oops, you are allowed to take only kids books");
 	
 }
 
